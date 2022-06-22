@@ -1,0 +1,38 @@
+/* GENERICS */
+
+/*** BORDER ***/
+
+.border{
+    border: 1px dashed black;
+}
+
+.debug > *{
+    border: 1px dashed red;
+}
+
+/* ALTEZZE FISSE */
+
+._h-50{
+    min-height: 50px;
+}
+
+/*
+MAIN COLOR
+SECTION COLOR
+*/
+
+main{
+    background-color: #B91450;
+}
+
+section p{
+    color: #B91450;
+}
+
+._form-item{
+    width: 183px;
+}
+
+._form-area{
+    background-color: white;
+}

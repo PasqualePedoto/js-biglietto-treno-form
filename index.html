@@ -18,15 +18,68 @@
     <title>Ticket Treni</title>
 </head>
 <body>
-    <main>
+    <main class="p-5">
         <!-- Price Calcolator Section -->
-        <section id="price-calcolator">
-
+        <section id="price-calcolator" class="p-5 mb-2">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <h1 class="text-center mb-5 text-white"><strong>CALCOLA IL PREZZO DEL TUO BIGLIETTO</strong></h1>
+                    </div>
+                    <div class="_form-area rounded-2 pt-5 pb-5 col-12">
+                        <div class="row">
+                            <div class="col-4">
+                                <div class="d-flex justify-content-end">
+                                    <div class="_form-item">
+                                        <div class="text-center">
+                                            <p>Nome Cognome</p>
+                                        </div>
+                                        <div>
+                                            <input type="text" placeholder="Nome e Cognome">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-4">
+                                <div class="d-flex justify-content-center">
+                                    <div class="_form-item">
+                                        <div class="text-center">
+                                            <p class="text-center">Km da percorrere</p>
+                                        </div>
+                                        <div>
+                                            <input type="number" placeholder="kms..">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-4">
+                                <div  class="d-flex justify-content-start">
+                                    <div class="_form-item">
+                                        <div class="text-center">
+                                            <p class="text-center">Km da percorrere</p>
+                                        </div>
+                                        <div>
+                                            <input type="number" placeholder="kms..">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 pt-5">
+                                <div class="d-flex justify-content-center">
+                                    <button id="generate-ticket" class="me-3 rounded-2">Genera</button>
+                                    <button id="cancel-ticket" class="rounded-2">Annulla</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </section>
 
         <!-- Your Tickets Section -->
-        <section id="your-tickets">
-
+        <section id="your-tickets" class="p-5">
+            <div class="container">
+            </div>
         </section>
     </main>
     <!-- Script JS -->
