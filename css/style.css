@@ -25,7 +25,7 @@ main{
     background-color: #B91450;
 }
 
-section p{
+#price-calcolator p{
     color: #B91450;
 }
 
@@ -33,6 +33,16 @@ section p{
     width: 183px;
 }
 
-._form-area{
+._form-area,
+._show-tickets{
     background-color: white;
+}
+
+#passenger-info{
+    background-color: #808080;
+}
+
+#ticket-info{
+    border-top: 1px solid #808080;
+    border-bottom: 1px solid #808080;
 }
